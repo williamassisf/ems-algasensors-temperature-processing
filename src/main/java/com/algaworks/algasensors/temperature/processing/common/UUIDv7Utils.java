@@ -1,4 +1,4 @@
-package com.algaworks.algasensors.temperature.processing;
+package com.algaworks.algasensors.temperature.processing.common;
 
 import java.time.Instant;
 import java.time.OffsetDateTime;
@@ -12,7 +12,7 @@ public class UUIDv7Utils {
 	}
 
 	public static OffsetDateTime extractOffsetDateTime(UUID uuid) {
-		if(Objects.isNull(uuid)) {
+		if (Objects.isNull(uuid)) {
 			return null;
 		}
 
